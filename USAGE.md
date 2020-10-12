@@ -72,6 +72,18 @@
     std::cout << b << '\n';
     ```
 
+- `pythagoreanTheorem`
+
+    Description:
+    > Will calculate the pythagorean theorem for you
+
+    Usage: `pythagoreanTheorem(a, b);`
+
+    Example:
+    ```c++
+    std::cout << pythagoreanTheorem(7, 9) << '\n';
+    ```
+
 ### Classes
 - `cube`
 

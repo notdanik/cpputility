@@ -70,3 +70,10 @@ string operatingSystemName() {
   std::cerr << "Error: Unable to get OS name" << '\n';
   #endif
 }
+
+double pythagoreanTheorem(double a, double b) {
+  double a2 = a * a;
+  double b2 = b * b;
+  double c2 = a2 + b2;
+  return sqrt(c2);
+}

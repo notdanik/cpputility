@@ -11,5 +11,6 @@ int main(int argc, char const *argv[]) {
   std::cout << charToInt(test) - 1 << '\n';
   printString(operatingSystemName());
   readFile("test.txt");
+  std::cout << pythagoreanTheorem(3, 5) << '\n';
   return 0;
 }
