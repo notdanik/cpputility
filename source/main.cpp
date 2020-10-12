@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
+#include <cstdlib>
 using namespace std;
 
 #include "utility.hpp"
