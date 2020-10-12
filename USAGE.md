@@ -9,7 +9,7 @@
 - `printString`
     Usage: `printString(string);`
     Example:
-    ```
+    ```c++
     printString("hello");
     printString(stringVariable);
     printString(stringVariable + "string" + anotherStringVariable);
