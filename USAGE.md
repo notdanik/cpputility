@@ -57,3 +57,21 @@
     ```
 
     **Note:** *the function always needs string argument, if the string i empty, it will print `Press enter to continue...`*
+
+### Classes
+- `cube`
+
+    Description:
+    > Used to calculate volume of a block
+
+    Parameters:
+    ```c++
+    double x
+    double y
+    double z
+    ```
+
+    Returns:
+    ```c++
+    double volume = x * y * z
+    ```
