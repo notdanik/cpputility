@@ -20,7 +20,7 @@ void readFile(string file) {
   string stream_content;
   ifstream stream(file);
   while (getline (stream, stream_content)) {
-    println(stream_content);
+    printString(stream_content);
   }
 }
 
@@ -32,4 +32,8 @@ void pause(string text) {
     std::cout << text << '\n';
     cin.get();
   }
+}
+
+int charToInt(char a) {
+  return a - '0';
 }

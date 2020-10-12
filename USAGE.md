@@ -58,6 +58,20 @@
 
     **Note:** *the function always needs string argument, if the string i empty, it will print `Press enter to continue...`*
 
+- `charToInt`
+
+    Description:
+    > Will transwer char to integer
+
+    Usage: `charToInt(char);`
+
+    Example:
+    ```c++
+    char a = '7';
+    int b = charToInt(a);
+    std::cout << b << '\n';
+    ```
+
 ### Classes
 - `cube`
 
