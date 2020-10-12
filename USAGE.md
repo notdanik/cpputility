@@ -12,6 +12,7 @@
     > Will print a string
 
     Usage: `printString(string);`
+
     Example:
     ```c++
     printString("hello");
@@ -24,6 +25,7 @@
     > Will clear the console
 
     Usage: `clear();`
+    
     Example:
     ```c++
     clear();
