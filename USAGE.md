@@ -75,3 +75,20 @@
     ```c++
     double volume = x * y * z
     ```
+
+    Example:
+    ```c++
+    cube block1;
+    cube block2;
+
+    block1.x = 7;
+    block1.y = 2;
+    block1.z = 4;
+
+    block2.x = 5.38;
+    block2.y = 2.63;
+    block2.z = 7.21;
+
+    std::cout << "Block 1: " << block1.volume() << '\n';
+    std::cout << "Block 2: " << block2.volume() << '\n';
+    ```
