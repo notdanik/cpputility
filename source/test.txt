@@ -1,0 +1,4 @@
+ahoj
+řádka 2
+test \n test
+řádka 4
