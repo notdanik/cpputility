@@ -25,8 +25,20 @@
     > Will clear the console
 
     Usage: `clear();`
-    
+
     Example:
     ```c++
     clear();
+    ```
+- `readFile`
+
+    Description:
+    > Prints the contents of selecter text file
+
+    Usage: `readFile(file);`
+
+    Example:
+    ```c++
+    readFile("text.txt");
+    readFile(stringWithFileName);
     ```
