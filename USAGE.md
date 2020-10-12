@@ -42,3 +42,18 @@
     readFile("text.txt");
     readFile(stringWithFileName);
     ```
+
+- `pause`
+
+    Description:
+    > Will pause the console until [ENTER] is pressed
+
+    Usage: `pause("optional pause string");`
+
+    Example:
+    ```c++
+    pause("");
+    pause("Pause text");
+    ```
+
+    **Note:** *the function always needs string argument, if the string i empty, it will print `Press enter to continue...`*
