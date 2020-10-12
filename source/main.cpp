@@ -12,5 +12,6 @@ int main(int argc, char const *argv[]) {
   printString(operatingSystemName());
   readFile("test.txt");
   std::cout << pythagoreanTheorem(3, 5) << '\n';
+  std::cout << "29: " << isPrimeNumber(29) << " 18: " << isPrimeNumber(18) << '\n';
   return 0;
 }

@@ -84,6 +84,19 @@
     std::cout << pythagoreanTheorem(7, 9) << '\n';
     ```
 
+- `isPrimeNumber`
+
+    Description:
+    > Will return true if selected int is prime number and will return false otherwise
+
+    Usage: `isPrimeNumber(number);`
+
+    Example:
+    ```c++
+    isPrimeNumber(7); // Returns true
+    isPrimeNumber(9); // Returns false
+    ```
+
 ### Classes
 - `cube`
 
