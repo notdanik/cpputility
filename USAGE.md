@@ -131,3 +131,24 @@
     std::cout << "Block 1: " << block1.volume() << '\n';
     std::cout << "Block 2: " << block2.volume() << '\n';
     ```
+
+- `speed`
+
+    Description:
+    > Can calculate the speed, time or path of a moving object
+
+    Parameters:
+    ```c++
+    double v
+    double t
+    double s
+    ```
+
+    **Note:** *Only two are required, the class will calculate the third one*
+
+    Returns:
+    ```c++
+    calcV = s / t
+    calcS = v * t
+    calcT = s / v
+    ```

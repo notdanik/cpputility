@@ -7,11 +7,21 @@ using namespace std;
 #include "utility.hpp"
 
 int main(int argc, char const *argv[]) {
-  char test = '7';
-  std::cout << charToInt(test) - 1 << '\n';
-  printString(operatingSystemName());
-  readFile("test.txt");
-  std::cout << pythagoreanTheorem(3, 5) << '\n';
-  std::cout << "29: " << isPrimeNumber(29) << " 18: " << isPrimeNumber(18) << '\n';
+  speed car1;
+  speed car2;
+  speed car3;
+
+  car1.v = 69;
+  car1.t = 5;
+
+  car2.s = 129.7;
+  car2.t = 1.2;
+
+  car3.s = 31.7;
+  car3.v = 19;
+
+  std::cout << "Car1 S: " << car1.calcS() << '\n';
+  std::cout << "Car2 V: " << car2.calcV() << '\n';
+  std::cout << "Car3 T: " << car3.calcT() << '\n';
   return 0;
 }

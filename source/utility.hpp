@@ -91,3 +91,19 @@ bool isPrimeNumber(int n) {
   }
   return true;
 }
+
+class speed {
+public:
+  double v;
+  double s;
+  double t;
+  double calcV() {
+    return s / t;
+  }
+  double calcS() {
+    return v * t;
+  }
+  double calcT() {
+    return s / v;
+  }
+};
