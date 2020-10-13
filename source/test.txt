@@ -2,3 +2,40 @@ ahoj
 řádka 2
 test \n test
 řádka 4
+
+- `speed`
+
+    Description:
+    > Can calculate the speed, time or path of a moving object
+
+    Parameters:
+    ```c++
+    double v
+    double t
+    double s
+    ```
+
+    **Note:** *Only two are required, the class will calculate the third one*
+
+    Returns:
+    ```c++
+    calcV = s / t
+    calcS = v * t
+    calcT = s / v
+    ```
+
+    class speed {
+    public:
+      double v;
+      double s;
+      double t;
+      double calcV() {
+        return s / t;
+      }
+      double calcS() {
+        return v * t;
+      }
+      double calcT() {
+        return s / v;
+      }
+    };
