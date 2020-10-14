@@ -1,6 +1,11 @@
 #include <stdexcept>
 #include <stdlib.h>
 
+#ifdef OSNAME
+  std::cout << "Error: OSNAME was already defined. Exiting..." << '\n';
+  exit(EXIT_FAILURE);
+#endif
+
 #ifndef INTEGER_16
 #define INTEGER_16 65536
 #endif

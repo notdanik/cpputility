@@ -24,7 +24,7 @@ int main(int argc, char const *argv[]) {
   std::cout << "Car2 V: " << car2.calcV() << '\n';
   std::cout << "Car3 T: " << car3.calcT() << '\n';
 
-  std::cout << OSNAME << INTEGER_16 << INTEGER_32 << INTEGER_64 << '\n';
+  std::cout << OSNAME << '\n';
 
   return 0;
 }
