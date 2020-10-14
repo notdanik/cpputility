@@ -1,5 +1,11 @@
+// INCLUDING:
+#include <cmath>
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
 #include <stdexcept>
 #include <stdlib.h>
+using namespace std;
 
 #ifdef OSNAME
   std::cout << "Error: OSNAME was already defined. Exiting..." << '\n';
