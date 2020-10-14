@@ -1,5 +1,47 @@
 #include <stdexcept>
 
+#ifndef INTEGER_16
+#define INTEGER_16 65536
+#endif
+
+#ifndef INTEGER_32
+#define INTEGER_32 4294967296
+#endif
+
+#ifndef INTEGER_64
+#define INTEGER_64 18446744073709551616
+#endif
+
+#ifdef _WIN32
+#ifndef OSNAME
+#define OSNAME "win32"
+#endif
+#elif __linux__
+#ifndef OSNAME
+#define OSNAME "linux"
+#endif
+#elif _WIN64
+#ifndef OSNAME
+#define OSNAME "win64"
+#endif
+#elif __APPLE__ || __MACH__
+#ifndef OSNAME
+#define OSNAME "macos"
+#endif
+#elif __unix || __unix__
+#ifndef OSNAME
+#define OSNAME "unix"
+#endif
+#elif __FreeBSD__
+#ifndef OSNAME
+#define OSNAME "fbsd"
+#endif
+#else
+#ifndef OSNAME
+#define OSNAME "Error! Unable to get!"
+#endif
+#endif
+
 extern ostream cerr;
 
 void printString(string write) {
