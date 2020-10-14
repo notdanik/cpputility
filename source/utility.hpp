@@ -5,7 +5,11 @@ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
 OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.*/
-
+// TEST IS THIS IS C++
+#ifndef __cplusplus
+printf("Error! This is not c++ | utility.hpp needs c++ to work\n");
+exit(EXIT_FAILURE);
+#endif
 // INCLUDING:
 #include <cmath>
 #include <cstdlib>
