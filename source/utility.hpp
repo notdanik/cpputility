@@ -1,4 +1,5 @@
 #include <stdexcept>
+#include <stdlib.h>
 
 #ifndef INTEGER_16
 #define INTEGER_16 65536
@@ -110,6 +111,8 @@ string operatingSystemName() {
   return "FreeBSD";
   #else
   std::cerr << "Error: Unable to get OS name" << '\n';
+  return "Error: Unable to get OS name";
+  exit(EXIT_FAILURE);
   #endif
 }
 
